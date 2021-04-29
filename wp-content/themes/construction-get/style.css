@@ -1,0 +1,235 @@
+/*
+Theme Name:   Construction Get
+Description:  Construction Get is child theme of quality construction and an attractive, modern, easy to use and responsive WordPress theme with colorful design and stunning flexibility. This theme is capable of tackling the overall needs of all construction websites including business and others. Construction Get can also be used for business and corporate websites. The advanced theme options and available various widgets with drag and drop features will help to customize your site as your need. Some of the available options are awesome slider section, header options, footer options, layout design options Color options, widget options, custom copyright options integrated social icons using menu, reset color option and lots of other available options will allow you to create unique website as you want. This theme will help you to create very high quality construction website easily with no time at all. Demo: http://canyonthemes.com/demo/construction-get/
+Author:       canyonthemes
+Theme URI:    https://www.canyonthemes.com/downloads/construction-get/
+Author URI:   https://www.canyonthemes.com/
+Template:     quality-construction
+Version:      1.0.5
+License:      GNU General Public License v3
+License URI:  http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain:  construction-get
+Tags:         custom-logo, one-column, two-columns, right-sidebar, left-sidebar, full-width-template, custom-background, custom-colors, custom-menu, featured-images, theme-options, threaded-comments, translation-ready, blog, portfolio, footer-widgets
+*/
+/************************************
+##0
+*************************************/ 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Alegreya', serif;
+    font-weight: bold;
+}
+.contact-detail2 li a {
+    color: #fff;
+}
+section#section1 {
+    margin: 0;
+    background: #083250;
+}
+.section-1-box .text-left{
+	text-align: center;
+}
+.section-1-box-icon-background {
+    background: #ffb700!important;
+    text-align: center;
+    float: none;
+    height: 100px;
+    margin: 0 auto;
+    width: 100px;
+    border-radius: 50%;
+}
+.section-1-box-icon-background i {
+    color: #083250;
+}
+
+section#section1 [class*="col-"]:nth-child(2) {
+    background: #ffb700;
+}
+section#section1 [class*="col-"]:nth-child(2) .section-1-box-icon-background{
+	background:#083250!important;
+}
+section#section1 [class*="col-"]:nth-child(2) .section-1-box-icon-background i{
+	color: #fff;
+}
+.section-1-box{
+	padding: 100px 20px;
+}
+.section-1-box h4 {
+	color: #ece8e8;
+    margin: 22px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.section-1-box p {
+    color: #d4d4d4;
+    font-size: 17px;
+}
+section#section1 [class*="col-"]:nth-child(2) .section-1-box h4{
+	color: #083250
+}
+section#section1 [class*="col-"]:nth-child(2) .section-1-box p{
+	color: #333;
+}
+.section-4-box-text-cont h5{
+	font-weight: bold;
+	font-size: 18px;
+}
+.section-4-box-icon-cont {
+    float: left;
+    width: 80px;
+    margin: 0 20px 20px 0;
+    height: 80px;
+    background: #f1f1f1;
+    text-align: center;
+    line-height: 80px;
+}
+.section-4-box-icon-cont i{
+    color: #083250!important;
+}
+section#section4 [class*="col-md-4"]:nth-child(1){
+	text-align: right;
+}
+section#section4 [class*="col-md-4"]:nth-child(1) .section-4-box-icon-cont{
+	float: right;
+	margin: 0 0 20px 20px
+}
+.section-5-background{
+	padding: 0!important;
+	overflow: hidden;
+}
+.section-5-background img{
+	max-width: none;
+	overflow: visible;
+}
+.section-5-box-text-cont h2 {
+    color: #151414;
+    margin: 60px 0 15px 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+.section-5-box-text-cont p {
+    color: #8e8d8d;
+    margin: 0 0 40px 0;
+    font-size: 15px;
+}
+section#section8 {
+    margin: 0;
+    padding: 100px 0;
+    background-size: cover !important;
+}
+section#section8 .col-sm-8.col-sm-offset-2 {
+	background: #fff;
+    border-radius: 300px 0;
+    padding: 80px 130px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+#quote-carousel .item blockquote p {
+    overflow: hidden;
+    padding: 60px 0 0;
+    position: relative;
+    height: auto;
+}
+.item blockquote p {
+	font-size: 22px;
+    color: #545454;
+    font-style: normal;
+    float: left;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome', sans-serif;
+    float: left;
+    margin-right: 10px;
+    position: absolute;
+    top: 15px;
+    font-size: 44px;
+    color: #e9ab30;
+}
+.item blockquote small {
+    color: #e9ab30;
+    font-size: 25px;
+}
+
+section#section2 {
+    margin: 0;
+    padding: 150px 0;
+    background: #083250;
+}
+.section-2-box-left h4 {
+    font-size: 40px;
+    color: #fff;
+    margin: 0 15px 30px 0;
+}
+.section-2-box-right p {
+    color: #fff;
+    font-size: 16px;
+}
+
+section#section-12 h2 {
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+.portfolioFilter {
+    margin: 15px;
+    overflow: hidden;
+    padding: 0;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.portfolioFilter a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0 0 -7px;
+    padding: 20px 35px;
+    display: inline-block;
+    font-size: 18px;
+    background: #083250;
+    font-weight: 700;
+}
+.portfolioFilter a.current {
+    color: #fff;
+    font-weight: 700;
+    background: #ffb700;
+}
+.isotope .isotope-item img {
+    -webkit-transition: box-shadow 0.3s, transform 0.3s;
+    -moz-transition: box-shadow 0.3s, transform 0.3s;
+    -ms-transition: box-shadow 0.3s, transform 0.3s;
+    -o-transition: box-shadow 0.3s, transform 0.3s;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+ .isotope .isotope-item img:hover {   
+ -webkit-box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+    transform: translateY(-10px);
+} 
+section#section14 h2 {
+    font-size: 40px;
+    color: #555555;
+}
+section#section14 h6 {
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 18px;
+    max-width: 60%;
+    margin: 20px auto;
+    line-height: normal;
+}
+section#section0 {
+    background: #083250;
+    margin: 0;
+}
+.section-0-btn-cont a {
+    padding: 15px 30px;
+    font-size: 20px;
+}
+.footer-top {
+    background-color: #082a42;
+}
+.footer-bottom {
+    background-color: #07253a;
+}
